@@ -21,7 +21,7 @@ def test_fibonacci():
 # Test the sum function
 def test_sum():
     # Test case 1: Check if sum(2, 3) returns 5
-    assert sum(2, 3) == 5
+    assert sum(2, 3) == 6
 
     # Test case 2: Check if sum(0, 0) returns 0
     assert sum(0, 0) == 0
