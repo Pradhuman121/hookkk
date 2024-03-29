@@ -20,14 +20,14 @@
 
 # Example of Python code with linting issues
 def fibonacci(n):
-    fib = [0,    1]
+    fib = [0, 1]
     for i in range(2, n):
         fib.append(fib[i - 1] + fib[i - 2])
     return fib
 
 
-print(f"The first 10 Fibonacci numbers are: {fibonacci(10)}")
+print(f"The first 10   Fibonacci numbers are: {fibonacci(10)}")
 
 
-def sum ( a, b):
+def sum(a, b):
     return a + b
