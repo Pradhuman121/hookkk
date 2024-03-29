@@ -26,7 +26,7 @@ def fibonacci(n):
     return fib
 
 
-print(f"The first 10   Fibonacci numbers are: {fibonacci(10)}")
+print (f"The first 10   Fibonacci numbers are: {fibonacci(10)}")
 
 
 def sum(a, b):
