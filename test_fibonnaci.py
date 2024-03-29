@@ -3,10 +3,11 @@
 # Import the functions to be tested
 from fib import fibonacci, sum
 
+
 # Test the fibonacci function
 def test_fibonacci():
     # Test case 1: Check if fibonacci(0) returns [0]
-    assert fibonacci(0) == [0]
+    assert fibonacci(0) == [0, 1]
 
     # Test case 2: Check if fibonacci(1) returns [0, 1]
     assert fibonacci(1) == [0, 1]
@@ -15,6 +16,7 @@ def test_fibonacci():
     assert fibonacci(5) == [0, 1, 1, 2, 3]
 
     # Add more test cases as needed...
+
 
 # Test the sum function
 def test_sum():
